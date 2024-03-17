@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="icon" type="image/x-icon" href="logo.svg">
+    <title>My portfolio</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="nav-bar">
+            <!-- <div class="logo">
+    <img alt="" fetchpriority="high" width="54" height="54" decoding="async" data-nimg="1" style="color:transparent" src="/logo.svg">
+</div> -->
+            <i class='bx bx-menu sidebarOpen' ></i>
+            <span class="logo navLogo"> <img alt="" fetchpriority="high" width="54" height="54" decoding="async" data-nimg="1" style="color:transparent" src="/logo.svg"></span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"> <img alt="" fetchpriority="high" width="54" height="54" decoding="async" data-nimg="1" style="color:transparent" src="/logo.svg"></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <!-- <i class="material-icons">info</i> -->
+                    <li> <a href="#about"
+                        ><i class="material-icons ok">home</i><span>About</span></a
+                      ></li>
+                    <li><a href="#experience"
+                        ><i class="material-icons">work</i><span>Experience</span></a ></li>
+
+                        <li> <a href="#skill"
+                            ><i class="material-icons">bar_chart</i><span>Skills</span></a
+                          ></li>
+                    <li><a href="#projects"
+                        ><i class="material-icons ok">web</i><span>Projects</span></a
+                      ></li>
+                    <li> <a href="#contact"
+                        ><i class="material-icons ok">mail</i><span>Contact</span></a
+                      ></li>
+                      
+                    
+                </ul>
+            </div>
+
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+
+                <div class="searchBox">
+                   <div class="searchToggle">
+                    <i class='bx bx-x cancel'></i>
+                    <i class='bx bx-search search'></i>
+                   </div>
+
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <!-- PROFILE -->
+        <div id="profile">
+            
+            <div class="section__pic-container">
+              
+              <img src="imgS.png" alt=""height="500px" />
+            
+            </div>
+            <div class="section__text">
+              <p class="section__text__p1">Hello 👋, I'm</p>
+              <h1 class="title-hero typewriter">Salma Bourizi 😊</h1>
+              <p class="section__text__p2 animated-text">>_ <span></span></p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-1"
+                  onclick="window.open('SALMA BOURIZI.pdf')"
+                >
+                  Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='#contact'">
+                  Contact Info
+                </button>
+              </div>
+              <br>
+              <div id="socials-container">
+             
+                <img src="mongo.png" alt="" class="logo-stack" />
+                <img src="ex.png" alt="" class="logo-stack" />
+                <img src="react.png" alt="" class="logo-stack" />
+                <img src="node.png" alt="" class="logo-stack" />
+              
+              </div>
+             <br>
+             <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                  <img
+                    src="email.png"
+                    alt="Email icon"
+                    class="icon contact-icon email-icon"
+                  />
+                  <p>
+                    <a href="mailto:salmabourizi61@gmail.com" style="text-decoration: none;">salmabourizi61@gmail.com</a>
+                  </p>
+                </div>
+                <div class="contact-info-container">
+                  <img
+                    src="linkedin.png"
+                    alt="LinkedIn icon"
+                    class="icon contact-icon"
+                  />
+                  <p>
+                    <a href="https://www.linkedin.com/in/salma-bourizi/" style="text-decoration: none;">LinkedIn</a>
+                  </p>
+                </div>
+              </div>
+              <!-- <img
+              src="arrow.png"
+              alt="Arrow icon"
+              class="icon arrow"
+              onclick="location.href='#about'"
+            /> -->
+            </div>
+            <!-- <div>
+                <ul class="list">
+                    <li><i class="fa-brands fa-github"></i></li>
+                    <li><i class="fa-brands fa-linkedin"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-regular fa-envelope"></i></li>
+                  </ul>
+            </div> -->
+           
+          
+       </div>
+
+<br><br><br><br><br><br><br><br>
+
+
+<!-- ABOUT -->
+          <div id="about">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+           
+              <div class="about-details-contain">
+                <div class="about-contains">
+                
+                  <div class="details-contain">
+                    <img
+                      src="education.png"
+                      alt="Education icon"
+                      class="icon"
+                    />
+                    <h3>Education</h3>
+                    <p>
+                      FST Settat : Computer Engineering Degree<br />3W Academy Maroc :
+                      Full Stack MERN Developer
+                    </p>
+                  </div>
+                </div>
+             
+              </div>
+            <br><br>
+            <img
+              src="arrow.png"
+              alt="Arrow icon"
+              class="icon arrow"
+              onclick="location.href='#experience'"
+            />
+          </div> 
+
+          <br><br><br>
+         <!-- EXPERIENCE -->
+<div id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+       
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend et backend Development</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="arkx.jpeg"
+                alt="Experience icon"
+                class="icon-ex"
+              />
+              <div>
+                <h3>ARKx Academy</h3>
+                <p>MERN Full Stack Developer-Intership</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="Universite.png"
+                alt="Experience icon"
+                class="icon-ex"  
+              />
+              <div>
+                <h3>Université Hassan I</h3>
+                <p>Web Developer-Intership</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      src="arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='#projects'"
+    />
+  </div>
+
+  <br><br><br><br>
+   <!-- skills -->
+   <div id="skill">
+    <div class="skillTitle">
+        <h1 class="title">SKILLS</h1>
+    </div>
+    <div class="listSkill">
+      <div class="item">
+        <div class="name">HTML5</div>
+        <div class="evaluate" style="--var: 100%"></div>
+      </div>
+      <div class="item">
+        <div class="name">CSS3</div>
+        <div class="evaluate" style="--var: 80%"></div>
+      </div>
+      <div class="item">
+        <div class="name">JAVASCRIPT</div>
+        <div class="evaluate" style="--var: 80%"></div>
+      </div>
+      <div class="item">
+        <div class="name">JAVA</div>
+        <div class="evaluate" style="--var: 50%"></div>
+      </div>
+      <div class="item">
+        <div class="name">REACTJS</div>
+        <div class="evaluate" style="--var: 80%"></div>
+      </div>
+      <div class="item">
+        <div class="name">ANGULAR</div>
+        <div class="evaluate" style="--var: 50%"></div>
+      </div>
+      <div class="item">
+        <div class="name">NODEJS</div>
+        <div class="evaluate" style="--var: 80%"></div>
+      </div>
+      <div class="item">
+        <div class="name">MONGODB</div>
+        <div class="evaluate" style="--var: 100%"></div>
+      </div>
+    </div>
+  </div>
+  <!-- PROjects -->
+  <div id="projects">
+    <div class="projectTitle">
+        <h1 class="title">PROJECTS</h1></div>
+    <div class="listProject">
+      <div class="item">
+        <div class="item-img">
+        <img  class="imagez"src="Image1.png" />
+    </div>
+        <div class="back"><p>J'ai Réalisée une application de gestion des formations des doctorants , le Front end avec Angular et le Back end avec Laravel Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, deleniti quibusdam accusantium explicabo recusandae deserunt accusamus perspiciatis provident quidem quas? Repellat, ab facilis. Expedita harum porro, animi delectus unde numquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illum animi dicta maxime quos saepe ad incidunt voluptate non, amet nobis porro, tenetur autem voluptatem accusantium possimus quis quia 
+        </p></div>
+       
+        <div class="name">
+         <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/salmabourizi-dev/mon-blog'"
+              >
+                Github
+              </button>
+              <div class="bottum">
+          <button class="btnP" onclick="showMore(this)">Show more</button>
+          <button class="btnM" style="display: none;" onclick="showLess(this)">Show less</button>
+        </div>
+        </div>
+        
+      <!-- <button
+        class="btn btn-color-2 project-btn"
+        onclick="location.href='https://github.com/salmabourizi-dev?tab=repositories'"
+      >
+        Live Demo
+      </button> -->
+      </div>
+      
+      
+      <div class="item">
+        <div class="item-img">
+            <img  class="imagez" src="Capture.PNG" />
+    </div>
+        <div class="back"><p>J'ai Réalisée une application de gestion des formations des doctorants , le Front end avec Angular et le Back end avec Laravel Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, deleniti quibusdam accusantium explicabo recusandae deserunt accusamus perspiciatis provident quidem quas? Repellat, ab facilis. Expedita harum porro, animi delectus unde numquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illum animi dicta maxime quos saepe ad incidunt voluptate non, amet nobis porro, tenetur autem voluptatem accusantium possimus quis quia 
+        </p></div>
+       
+        <div class="name">
+         <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/salmabourizi-dev/mon-blog'"
+              >
+                Github
+              </button>
+              <div class="bottum">
+          <button class="btnP" onclick="showMore(this)">Show more</button>
+          <button class="btnM" style="display: none;" onclick="showLess(this)">Show less</button>
+        </div>
+        </div>
+        
+      <!-- <button
+        class="btn btn-color-2 project-btn"
+        onclick="location.href='https://github.com/salmabourizi-dev?tab=repositories'"
+      >
+        Live Demo
+      </button> -->
+      </div>
+      
+      
+      <div class="item">
+        <div class="item-img">
+            <img class="imagez" src="blog.jpeg" height=80px  />
+    </div>
+        <div class="back"><p>J'ai Réalisée une application de gestion des formations des doctorants , le Front end avec Angular et le Back end avec Laravel Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, deleniti quibusdam accusantium explicabo recusandae deserunt accusamus perspiciatis provident quidem quas? Repellat, ab facilis. Expedita harum porro, animi delectus unde numquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illum animi dicta maxime quos saepe ad incidunt voluptate non, amet nobis porro, tenetur autem voluptatem accusantium possimus quis quia 
+        </p></div>
+       
+        <div class="name">
+         <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/salmabourizi-dev/mon-blog'"
+              >
+                Github
+              </button>
+              <div class="bottum">
+          <button class="btnP" onclick="showMore(this)">Show more</button>
+          <button class="btnM" style="display: none;" onclick="showLess(this)">Show less</button>
+        </div>
+        </div>
+        
+      <!-- <button
+        class="btn btn-color-2 project-btn"
+        onclick="location.href='https://github.com/salmabourizi-dev?tab=repositories'"
+      >
+        Live Demo
+      </button> -->
+      </div>
+    
+
+      <div class="item">
+        <div class="item-img">
+            <img class="imagez" src="movies.PNG" />
+    </div>
+        <div class="back"><p>J'ai Réalisée une application de gestion des formations des doctorants , le Front end avec Angular et le Back end avec Laravel Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, deleniti quibusdam accusantium explicabo recusandae deserunt accusamus perspiciatis provident quidem quas? Repellat, ab facilis. Expedita harum porro, animi delectus unde numquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illum animi dicta maxime quos saepe ad incidunt voluptate non, amet nobis porro, tenetur autem voluptatem accusantium possimus quis quia 
+        </p></div>
+       
+        <div class="name">
+         <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/salmabourizi-dev/mon-blog'"
+              >
+                Github
+              </button>
+              <div class="bottum">
+          <button class="btnP" onclick="showMore(this)">Show more</button>
+          <button class="btnM" style="display: none;" onclick="showLess(this)">Show less</button>
+        </div>
+        </div>
+        
+      <!-- <button
+        class="btn btn-color-2 project-btn"
+        onclick="location.href='https://github.com/salmabourizi-dev?tab=repositories'"
+      >
+        Live Demo
+      </button> -->
+      </div>
+
+   
+
+      <div class="item">
+        <div class="item-img">
+            <img  class="imagez" src="appdechat.PNG" />
+    </div>
+        <div class="back"><p>J'ai Réalisée une application de gestion des formations des doctorants , le Front end avec Angular et le Back end avec Laravel Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, deleniti quibusdam accusantium explicabo recusandae deserunt accusamus perspiciatis provident quidem quas? Repellat, ab facilis. Expedita harum porro, animi delectus unde numquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illum animi dicta maxime quos saepe ad incidunt voluptate non, amet nobis porro, tenetur autem voluptatem accusantium possimus quis quia 
+        </p></div>
+       
+        <div class="name">
+         <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/salmabourizi-dev/mon-blog'"
+              >
+                Github
+              </button>
+              <div class="bottum">
+          <button class="btnP" onclick="showMore(this)">Show more</button>
+          <button class="btnM" style="display: none;" onclick="showLess(this)">Show less</button>
+        </div>
+        </div>
+        
+      <!-- <button
+        class="btn btn-color-2 project-btn"
+        onclick="location.href='https://github.com/salmabourizi-dev?tab=repositories'"
+      >
+        Live Demo
+      </button> -->
+      </div>
+
+    
+
+      <div class="item">
+        <div class="item-img">
+            <img class="imagez" src="site.PNG" />
+    </div>
+        <div class="back"><p>J'ai Réalisée une application de gestion des formations des doctorants , le Front end avec Angular et le Back end avec Laravel Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, deleniti quibusdam accusantium explicabo recusandae deserunt accusamus perspiciatis provident quidem quas? Repellat, ab facilis. Expedita harum porro, animi delectus unde numquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illum animi dicta maxime quos saepe ad incidunt voluptate non, amet nobis porro, tenetur autem voluptatem accusantium possimus quis quia 
+        </p></div>
+       
+        <div class="name">
+         <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/salmabourizi-dev/mon-blog'"
+              >
+                Github
+              </button>
+              <div class="bottum">
+          <button class="btnP" onclick="showMore(this)">Show more</button>
+          <button class="btnM" style="display: none;" onclick="showLess(this)">Show less</button>
+        </div>
+        </div>
+        
+      <!-- <button
+        class="btn btn-color-2 project-btn"
+        onclick="location.href='https://github.com/salmabourizi-dev?tab=repositories'"
+      >
+        Live Demo
+      </button> -->
+      </div>
+
+    </div>
+    <!-- <img
+    src="arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='#contact'"
+  /> -->
+  </div>
+       
+<!-- CONTACT -->
+  <div id="contact">
+    <div class="titleContact">
+        <h1 class="title">CONTACT</h1></div>
+    </div>
+    <div class="contactMe">
+      <div class="freeText">
+        <p>Are you ready to take the next step? I'm here to listen, let's create something amazing together. 
+          Whether you have a project in mind,want to discuss an idea,I'd love to hear from you. 
+          Reach out to me through the contact form.</p>
+
+          <!-- <div class="letter-image">
+            <div class="animated-mail">
+              <div class="back-fold"></div>
+              <div class="letter">
+                <div class="letter-border"></div>
+                <div class="letter-title"></div>
+                <div class="letter-context"></div>
+                <div class="letter-stamp">
+                  <div class="letter-stamp-inner"></div>
+                </div>
+              </div>
+              <div class="top-fold"></div>
+              <div class="body"></div>
+              <div class="left-fold"></div>
+            </div>
+            <div class="shadow"></div>
+          </div> -->
+
+      </div>
+
+
+   
+
+
+      <div class="form">
+        <form action="">
+          <div class="fullname myInput">
+            <input type="text" placeholder="Entre your full name">
+          </div>
+          <div class="email myInput">
+            <input type="email" placeholder=" Entre your Email">
+          </div>
+          <div class="textarea myInput">
+            <textarea placeholder="Write your message here"></textarea>
+          </div>
+          <div class="contactButton"><button>Contact me</button></div>
+      </form>
+      </div>
+    </div>
+
+
+<div>
+  <footer class="footer">
+    <p>Copyright &#169; 2024 Salma Bourizi 🧡. All Rights Reserved.</p>
+  </footer>
+</div>
+
+
+
+    <script src="script.js"></script>
+</section>
+</body>
+</html>
